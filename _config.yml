@@ -21,8 +21,10 @@
 title: Cho Do Hyoung My Blog
 name: "나의 개발 블로그(포트폴리오)"
 author:
-  github: chodohyoung
-  email: ddk651@naver.com
+  github: "ChoDoHyoung"
+  email: "ddk651@naver.com"
+  location: "Republic of Korea"
+  naverblog: "https://blog.naver.com/ohminji789"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -37,6 +39,14 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+# 구글 애널리틱스
+# Google Analytics
+analytics:
+  provider               : ""
+  google:
+    tracking_id          : ""
+    anonymize_ip         : # true, false (default)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
