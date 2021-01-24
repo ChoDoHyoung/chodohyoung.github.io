@@ -6,11 +6,60 @@ html {
     body {
         width:1500px;
         max-width:1500px;
+        margin:0 auto;
+
+        .top{
+            min-height: 100vh;
+            padding: 10% 4rem 6rem 4rem;
+            transition: opacity 1s ease, transform 1s ease;
+            text-align: center;
+            color:#fff;
+            h1{
+                font-size: 5rem;
+                text-shadow: 3px 3px 2px #151c24;
+                letter-spacing: 3px;
+                margin-bottom:50px;
+            }            
+            h2{
+                font-size: 2.5rem;
+                text-shadow: 3px 3px 2px #151c24;
+                margin-bottom:40px;
+            }            
+            p{
+                font-size: 1rem;
+                margin-bottom:40px;
+                letter-spacing: 1px;
+                line-height: 2rem;
+                span{
+                    border-bottom: 1px dashed #fff;
+                    padding-bottom:3px;
+                }
+                a{
+                    color:#fff;
+                    border-bottom: 1px dashed #fff;
+                    padding-bottom:3px;
+                    &:hover{
+                        border-bottom: 1px dashed #73acee;
+                        color:#73acee;
+                    }
+                }
+            }
+            a{
+                color:#fff;
+                i.top_under_arr{
+                    font-size: 4rem;
+                    text-shadow: 3px 3px 2px #151c24;
+                    &:hover{
+                        cursor: pointer;
+                        color:#73acee;
+                        text-shadow: 3px 3px 2px #101822;
+                    }
+                }
+            }    
+        }
 
         .nav{
-            height:85px;
-            text-align: center;
-            nav.menu{
+            ul{
 
             }
         }
