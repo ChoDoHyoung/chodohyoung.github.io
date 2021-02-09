@@ -76,36 +76,60 @@ html {
             }    
         }
 
-        .nav{
-            width:1500px;
-            margin:0 auto;
-            background-color: #000;
-            background-color: rgba( 0, 0, 0, 0.4 );
-            ul{
-                display: inline-block;
-                font-size: 0;
-                li{
-                    display: inline-block;
-                    padding:30px 50px;
-                    font-size: 1rem;
-                    a{
-                        color:#fff;
-                        font-size:20px;
-                        font-weight: 400;
-                    }
-                    &.active{
-                        background-color:#fff;
-                        a{
-                            color:#2C3238;
-                            font-weight: 600;
+        .sub_top{
+            text-align: center;
+            h1{
+                margin-bottom:20px;
+                color:#fff;
+                font-size: 5rem;
+                text-shadow: 3px 3px 2px #aaa;
+                letter-spacing: 3px;
+            }
+            h2{
+                margin-bottom:50px;
+                color:#fff;
+                font-size: 2.5rem;
+                text-shadow: 3px 3px 2px #aaa;
+                letter-spacing: 2px;
+                span{
+                    font-size:3rem;
+                    color:#0d40c2;
+                    text-shadow: 3px 3px 2px #333;
+                }
+            }
+        }
+
+        .wrap{
+            background-color:#fff;
+            min-height: 600px;
+            .Content{
+                .nav{
+                    width:1500px;
+                    margin:0 auto;
+                    background-color: rgba( 0, 0, 0, 0.7 );
+                    ul{
+                        display: inline-block;
+                        font-size: 0;
+                        li{
+                            display: inline-block;
+                            padding:30px 50px;
+                            font-size: 1rem;
+                            a{
+                                color:#fff;
+                                font-size:20px;
+                                font-weight: 400;
+                            }
+                            &.active{
+                                background-color:#fff;
+                                a{
+                                    color:#2C3238;
+                                    font-weight: 600;
+                                }
+                            }
                         }
                     }
                 }
             }
-        }
-        .wrap{
-            background-color:#fff;
-            min-height: 600px;
         }
     }
     
