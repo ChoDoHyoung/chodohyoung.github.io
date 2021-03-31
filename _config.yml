@@ -1,12 +1,12 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: Cho Do Hyoung Blog
+description: My Personal Blog.[Cho Do Hyoung]
+author: Cho Do Hyoung
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/ChoDoHyoung/chodohyoung.github.io
+about: Full stack developer
 
 baseurl: ""
-url: ""
+url: "https://chodohyoung.github.io/"
 
 allowsearch: true
 
