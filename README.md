@@ -1,11 +1,22 @@
-Cho Do Hyoung - My Blog
+## HCZ Material theme
 
-Now Work : 퍼블리싱 작업중:heart_eyes:
+This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
 
-///////////////////////////////////////////////////////////////
+### Demo
+* [https://codeasashu.github.io/hcz-jekyll-blog](https://codeasashu.github.io/hcz-jekyll-blog/)
 
-블로그 형태 구상중
-1. 메인
-2. 하드코딩 형태의 포트폴리오 게시판 추가 예정
+#### Feature
 
-///////////////////////////////////////////////////////////////
+* Sitemap and XML Feed
+* Site Search 
+* Projects and tags
+* Paginations in homepage
+* Posts under category
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+
+#### Screenshot
+
+![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")
